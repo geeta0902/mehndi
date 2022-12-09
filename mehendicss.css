@@ -209,7 +209,25 @@ height:450px;
   height:450px;
   }
   }
-  
+
+  @media only screen and (max-width:450px){
+    figure img{
+      margin:50 50 10 50;
+    }
+    #mainserv{
+    top:80px !important;
+    left:5px !important;
+    width:90%;
+    padding:10px;
+    margin:15px;;
+    }
+    .mainS img{
+    width:450px !important;
+    height:450px;
+    }
+    }
+    
+    
   
 /* for project completed media query  */
 @media only screen and (max-width:560px){
