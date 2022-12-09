@@ -193,23 +193,6 @@ height:450px;
 }
 
 /* for our services and gallery images media query mobile */
-@media only screen and (max-width:385px){
-  figure img{
-    margin:10 50 10 50;
-  }
-  #mainserv{
-  top:80px !important;
-  left:5px !important;
-  width:90%;
-  padding:10px;
-  margin:15px;;
-  }
-  .mainS img{
-  width:450px !important;
-  height:450px;
-  }
-  }
-
   @media only screen and (max-width:450px){
     figure img{
       margin:10 60 10 70;
