@@ -131,15 +131,22 @@ color:white;
 color:#ECB084;
 }
 
-/*for navigation grey color */
+/*for navigation grey color and book online form */
 @media only screen and (max-width:768px){
   #nav{
     height:80px !important;
   }
+  #exampleModal{
+    width:95%;
+  }
+
 }
 @media only screen and (max-width:450px){
   #nav{
     height:80px !important;
+  }
+  #exampleModal{
+    width:80%;
   }
 }
 
