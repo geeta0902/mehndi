@@ -192,8 +192,11 @@ height:450px;
 }
 }
 
-/* for our services media query mobile */
+/* for our services and gallery images media query mobile */
 @media only screen and (max-width:385px){
+  figure img{
+    margin:50 50 10 50;
+  }
   #mainserv{
   top:80px !important;
   left:5px !important;
