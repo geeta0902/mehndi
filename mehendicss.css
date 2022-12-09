@@ -92,7 +92,7 @@ width:70%;
 }
 
 /* for reviews media query */
-@media only screen and (max-width:385px) {
+@media only screen and (max-width:450px) {
 	.imgleft{
     width: 99%;
   }
@@ -251,11 +251,6 @@ left:50px !important;
 
 
 /* for book order contact us form for mobile */
-@media only screen and (max-width:385px){
-  #contact input{
-     width:90%;
-  }
-  }
   @media screen and (max-width:450px){
     #contact input{
        width:90%;
