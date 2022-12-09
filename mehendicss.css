@@ -92,8 +92,10 @@ width:70%;
 }
 
 /* for reviews media query */
-@media only screen and (max-width:560px) {
-	
+@media only screen and (max-width:385px) {
+	.imgleft{
+    width: 99%;
+  }
   #car2{
   width:90%;
   height:350px;
