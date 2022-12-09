@@ -137,6 +137,11 @@ color:#ECB084;
     height:80px !important;
   }
 }
+@media only screen and (max-width:450px){
+  #nav{
+    height:80px !important;
+  }
+}
 
 /* for reviews media query */
 @media only screen and (max-width:768px) {
