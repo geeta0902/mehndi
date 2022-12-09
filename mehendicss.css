@@ -195,7 +195,7 @@ height:450px;
 /* for our services and gallery images media query mobile */
 @media only screen and (max-width:385px){
   figure img{
-    margin:50 50 10 50;
+    margin:10 50 10 50;
   }
   #mainserv{
   top:80px !important;
@@ -212,7 +212,7 @@ height:450px;
 
   @media only screen and (max-width:450px){
     figure img{
-      margin:50 50 10 50;
+      margin:10 60 10 70;
     }
     #mainserv{
     top:80px !important;
@@ -256,7 +256,12 @@ left:50px !important;
      width:90%;
   }
   }
-
+  @media screen and (max-width:450px){
+    #contact input{
+       width:90%;
+    }
+    }
+  
 /*for search box*/
 
 .togglesearch{
