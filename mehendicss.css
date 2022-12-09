@@ -130,14 +130,66 @@ color:white;
 .service a:hover{
 color:#ECB084;
 }
+  
+/*for search box*/
 
-/*for navigation grey color and book online form */
+.togglesearch{
+  background: white;
+  position: absolute;
+  top: 88px;
+  right: 8%;
+  width: 500px;
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-top:4px solid #ECB084;
+  display: none;
+}
+
+.togglesearch:before{
+  position: absolute;
+  top: -30px;
+  right:-20px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid #D80B15;
+}
+
+.togglesearch input[type="text"]{
+  width: 350px;
+  height:58%;
+  padding: 5px 10px;
+  margin-left: 23px;
+  border: 2px solid #540E12;
+  outline: none;
+}
+
+.togglesearch input[type="button"]{
+  width: 80px;
+  height:60%;
+  line-height:50%;
+  padding: 5px 0;
+  background: #540E12;
+  color: #ECB084;
+  font-size:16px;
+  margin-left:6px;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*for navigation grey color and book online form and for search */
 @media only screen and (max-width:768px){
   #nav{
     height:80px !important;
   }
   #exampleModal{
     width:95%;
+  }
+  .togglesearch{
+    width:60%;
+    margin-top:425px;
   }
 
 }
@@ -147,6 +199,15 @@ color:#ECB084;
   }
   #exampleModal{
     width:80%;
+  }
+  .togglesearch{
+    width:90% !important;
+    margin-top:425px;
+  }
+  .togglesearch input[type="text"]{
+    width: 250px;
+    height:58%;
+    
   }
 }
 
@@ -317,51 +378,3 @@ left:50px !important;
        width:90%;
     }
     }
-  
-/*for search box*/
-
-.togglesearch{
-  background: white;
-  position: absolute;
-  top: 88px;
-  right: 8%;
-  width: 500px;
-  height: 80px;
-  line-height: 80px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  border-top:4px solid #ECB084;
-  display: none;
-}
-
-.togglesearch:before{
-  position: absolute;
-  top: -30px;
-  right:-20px;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-top: 14px solid transparent;
-  border-bottom: 14px solid #D80B15;
-}
-
-.togglesearch input[type="text"]{
-  width: 350px;
-  height:58%;
-  padding: 5px 10px;
-  margin-left: 23px;
-  border: 2px solid #540E12;
-  outline: none;
-}
-
-.togglesearch input[type="button"]{
-  width: 80px;
-  height:60%;
-  line-height:50%;
-  padding: 5px 0;
-  background: #540E12;
-  color: #ECB084;
-  font-size:16px;
-  margin-left:6px;
-  border:none;
-  outline: none;
-  cursor: pointer;
-}
