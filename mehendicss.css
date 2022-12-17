@@ -193,14 +193,14 @@ color:#ECB084;
   }
   
 body{
-	overflow-x:hidden;
+	overflow-x:hidden !important;
 }
 
 }
 @media only screen and (max-width:450px){
  
 body{
-	overflow-x:hidden;
+	overflow-x:hidden !important;
 }
  #nav{
     height:80px !important;
@@ -243,7 +243,7 @@ body{
   @media only screen and (max-width:560px) {
 
 body{
-	overflow-x:hidden;
+	overflow-x:hidden !important;
 }	
   #car2{
   width:90%;
