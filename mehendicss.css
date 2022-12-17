@@ -2,9 +2,6 @@
 margin:0px;
 padding:0px;
 }
-body{
-	overflow-x:hidden;
-}
 nav{
 background:#540E12 ;
 }
@@ -194,10 +191,18 @@ color:#ECB084;
     width:60%;
     margin-top:425px;
   }
+  
+body{
+	overflow-x:hidden;
+}
 
 }
 @media only screen and (max-width:450px){
-  #nav{
+ 
+body{
+	overflow-x:hidden;
+}
+ #nav{
     height:80px !important;
   }
   #exampleModal{
@@ -236,7 +241,10 @@ color:#ECB084;
   }
   
   @media only screen and (max-width:560px) {
-	
+
+body{
+	overflow-x:hidden;
+}	
   #car2{
   width:90%;
   height:300px;
