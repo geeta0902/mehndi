@@ -343,13 +343,6 @@ height:450px;
   }
   }
   
-  /* for book order contact us */
-  @media only screen and (max-width:560px){
-  #book{
-  top:150px !important;
-  left:50px !important;
-  }
-  }
   
   @media only screen and (max-width:560px){
 .projects{
