@@ -2,6 +2,9 @@
 margin:0px;
 padding:0px;
 }
+body{
+	overflow-x:hidden;
+}
 nav{
 background:#540E12 ;
 }
