@@ -205,7 +205,8 @@ color:#ECB084;
     width:60%;
     margin-top:425px;
   }
-html{
+html{overflow-x:hidden;
+	
 	width: 100%;
   margin: 0px !important;
   padding: 0px !important;
@@ -222,7 +223,8 @@ body{
 
 @media only screen and (max-width:450px){
  
-html{
+html{overflow-x:hidden;
+	
 	width: 100%;
   margin: 0px !important;
   padding: 0px !important;
@@ -276,6 +278,7 @@ body{
   @media only screen and (max-width:560px) {
 
 html{
+	overflow-x:hidden;
 	width: 100%;
   margin: 0px !important;
   padding: 0px !important;
